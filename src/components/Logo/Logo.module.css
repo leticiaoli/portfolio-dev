@@ -1,0 +1,36 @@
+.logoBox {
+  display: none;
+}
+
+.logoImg{
+
+}
+
+@media (min-width: 768px) {
+  .logoBox {
+    display: block;
+    width: 300px;
+    height: auto;
+    position: relative;
+    margin-right: 300px;
+    animation-name: rocket;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+  }
+}
+
+@media (min-width: 1025px) {
+  .logoBox {
+    width: 380px;
+  }
+}
+
+@keyframes rocket {
+  0% {transform: rotate(30deg); top: 40px; left: -50px}
+  25% {top: -40px}
+  50% {top: 40px}
+  75% {top: -40px}
+  100% {transform: rotate(60deg); top: 40px; left: 200px}
+}

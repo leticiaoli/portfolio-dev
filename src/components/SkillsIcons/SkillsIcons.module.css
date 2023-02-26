@@ -1,0 +1,56 @@
+.boxIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 100px 0;
+}
+
+.iconJs {
+  background: #000;
+  color: #f0db4f;
+  margin-right: 5px;
+}
+
+.iconHtml {
+  color: #ff6c39;
+  margin: 0 10px;
+}
+
+.iconCss {
+  color: #1f62ae;
+  margin: 0 5px;
+}
+
+.iconSass {
+  color: #cc6699;
+  margin: 0 5px;
+}
+
+.iconReact {
+  color: #0769ad;
+  margin: 0 5px;
+}
+
+.iconGulp {
+  color: #e44d26;
+  margin: 0 5px;
+}
+
+.iconGithub {
+  color: #323330;
+  margin: 0 5px;
+}
+
+.iconJquery {
+  border-radius: 50px;
+  background: #0769ad;
+  color: #fff;
+  margin: 0 5px;
+}
+
+@media (min-width: 768px){
+  .boxIcons svg {
+    width: 40px;
+    height: auto;
+  }
+}

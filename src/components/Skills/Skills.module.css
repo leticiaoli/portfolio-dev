@@ -1,0 +1,14 @@
+.skillsTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+@media (min-width: 1025px) {
+  .skillsTitle{
+    margin-bottom: 15px;
+    size: 16px;
+  }
+}

@@ -1,0 +1,43 @@
+.contentContact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.titleContact{
+    size: 32px;
+    line-height: 37.5px;
+    margin: 12px;
+    color: #fff;
+}
+
+.textContact{
+    width: 100%;
+    height: auto;
+    size: 16px;
+    line-height: 19.6px;
+    font-weight: 400;
+    margin: 12px;
+    color: #fff;
+    
+}
+
+@media (min-width: 1024px){
+    
+    .titleContact{
+        font-size: 50px;
+    }
+
+    .textContact{
+        width: auto;
+        max-width: 600px;
+        font-size: 20px;
+        margin: 40px 0;
+       
+    }
+}

@@ -1,0 +1,25 @@
+.avatarImg {
+  display: block;
+  width: 180px;
+  height: auto;
+  padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .avatarImg {
+    width: 400px;
+  }
+  .aboutBox .avatarImg {
+    min-height: 100vh;
+    margin-right: 50px;
+    position: relative;
+    padding-top: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .avatarImg {
+    width: 450px;
+  }
+}

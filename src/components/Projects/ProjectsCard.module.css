@@ -1,0 +1,118 @@
+.projectCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 60px 0;
+  position: relative;
+}
+
+.projectCard > span{
+  position: relative!important;
+}
+
+.projectImg {
+  width: auto!important;
+  min-width: 0px!important;
+  max-width: 265px!important;
+  height: auto!important;
+  min-height: 0px!important;
+  max-height: 215px!important;
+  position: relative!important;
+}
+
+.projectContent {
+  margin-top: 60px;
+}
+
+.projectTitle {
+  font-size: 25px;
+  color: #aa2fba;
+  font-weight: 900;
+  line-height: 26.63px;
+  margin: 6px 0;
+}
+
+.projectDescription {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 6px 0;
+  font-weight: 400;
+}
+
+.projectLink {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 8px;
+  background-color: #aa2fba;
+  color: #fff;
+  font-size: 14px;
+  margin: 19px 0 60px 0;
+  transition: all .3s linear;
+}
+
+.projectLink:hover {
+  background-color: #741c80;
+  transition: all .3s linear;
+}
+
+@media (min-width: 768px) {
+  .projectCard {
+    min-width: 51%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 51px 0;
+    box-sizing: border-box;
+    padding: 50px 0;
+  }
+
+  .projectCard:nth-of-type(odd) .projectContent {
+    order: -1;
+  }
+
+  .projectContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 70px;
+    margin-top: 0;
+    box-sizing: border-box;
+  }
+
+  .projectCard:nth-of-type(even) .projectContent {
+    margin-right: 0;
+    margin-left: 70px;
+  }
+
+  .projectImg {
+    max-width: 500px!important;
+    max-height: 300px!important;
+  }
+
+  .projectLink {
+    margin: 0;
+    height: auto;
+  }
+}
+
+@media (min-width: 1025px) {
+  .projectContent {
+    width: 480px;
+  }
+
+  .projectDescription {
+    margin: 28px 0;
+  }
+
+  .projectImg {
+    max-width: 400px;
+    max-height: 300px;
+  }
+}

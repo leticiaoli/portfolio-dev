@@ -1,0 +1,15 @@
+.iconMenu{
+    color: #BB6BD9;
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+@media (min-width: 768px){
+    .iconMenu{
+        top: 50px;
+        right: 80px;
+    }
+}

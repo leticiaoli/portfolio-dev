@@ -1,0 +1,41 @@
+.iconsBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  margin: 25px;
+}
+
+.boxIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 50%;
+    color: #aa2fba;
+    background-color: #f2c94c;
+    transition: all .3s linear;
+  }
+
+  .boxIcon:hover{
+    transition: all .3s linear;
+    background-color: #ebd698;
+  }
+
+  .boxIcon .icon{
+    width: 80%;
+    height: 80%;
+  }
+
+@media (min-width: 1024px) {
+  .boxIcon {
+    width: 84px;
+    height: 84px;
+  }
+
+}

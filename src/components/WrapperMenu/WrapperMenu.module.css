@@ -1,0 +1,63 @@
+.WrapperMenu{
+    width: 100%;
+    height: 100vh;
+    background: #BB6BD9;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.iconCloseMenu{
+    width: 45px;
+    height: 45px;
+    color: #fff;
+}
+
+.btnCloseMenu{
+    border: 0;
+    background-color: #BB6BD9;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.listMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 30px;
+}
+
+.listMenu__item{
+    margin-bottom: 48px;
+}
+
+.listMenu__text{
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear all;
+    background-color: transparent;
+    border: 0;
+}
+
+.listMenu__text:hover{
+    color: #2a0338;
+    transition: .3s linear all;
+}
+
+@media (min-width: 768px){
+    .btnCloseMenu{
+        top: 50px;
+        right: 80px;
+    }
+
+    .listMenu__text{
+        font-size: 26px;
+        color: #fff;
+    }
+}

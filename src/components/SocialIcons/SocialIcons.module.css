@@ -1,0 +1,14 @@
+.iconsList{
+    margin-top: 18px;
+}
+.icons{
+    color: #ffff;
+    margin-right: 12px;
+}
+
+@media (min-width: 1025px){
+    .icons{
+        width: 50px;
+        height: auto;
+    }
+}
